@@ -1,0 +1,127 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.Master.cs" Inherits="BusReservation.admin.Site1" %>
+<!DOCTYPE html>
+<!--[if IE 8]>    <html class="no-js ie8 ie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9 ie" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+	<head runat="server">
+		<meta charset="utf-8">
+		<title>Administration Panel</title>
+		<meta name="description" content="">
+		<meta name="author" content="Walking Pixels | www.walkingpixels.com">
+		<meta name="robots" content="index, follow">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- CSS styles -->
+		<link rel='stylesheet' type='text/css' href='css/huraga-green.css'>
+		<link rel='stylesheet' type='text/css' href='css/bootstrap-datetimepicker.min.css'>
+		
+		<!-- Fav and touch icons -->
+		<link rel="shortcut icon" href="img/icons/favicon.ico">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/icons/apple-touch-icon-114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/icons/apple-touch-icon-72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="img/icons/apple-touch-icon-57-precomposed.png">
+		
+		<!-- JS Libs -->
+		<script src="../js/jquery-1.8.3.js"></script>
+		<script>window.jQuery || document.write('<script src="js/libs/jquery.js"><\/script>')</script>
+		<script src="js/libs/modernizr.js"></script>
+		<script src="js/libs/selectivizr.js"></script>
+		<script src="js/bootstrap-datetimepicker.min.js"></script>
+		
+		<script>
+		    $(document).ready(function () {
+
+		        // Tooltips
+		        $('[title]').tooltip({
+		            placement: 'top'
+		        });
+
+		        // Dropdowns
+		        $('.dropdown-toggle').dropdown();
+
+		    });
+		</script>
+	</head>
+	<body>
+		
+		<!-- Main page header -->
+		<header class="container">
+		
+			<!-- Main page logo -->
+			<h1>Varan</h1>
+			
+			<!-- Main page headline -->
+			<p>Administration Panel</p>
+			
+			<!-- Alternative navigation -->
+			<nav>
+				<ul>
+					<li><a href="../logout.aspx">Logout</a></li>
+				</ul>
+			</nav>
+			<!-- /Alternative navigation -->
+			
+		</header>
+		<!-- /Main page header --> 
+        <!-- Main page container -->
+		<section class="container" role="main">
+		
+			<!-- Left (navigation) side -->
+			<div class="navigation-block">
+			
+				
+				<!-- Main navigation -->
+				<nav class="main-navigation" role="navigation">
+					<ul>
+						<li><a href="route.aspx" class="no-submenu"><span class="awe-road"></span>Routes</a></li>
+						<li><a href="bus.aspx" class="no-submenu"><span class="awe-truck"></span>Buses</a></li>
+						<li><a href="agent.aspx" class="no-submenu"><span class="awe-certificate"></span>Agents</a></li>
+						<li><a href="customer.aspx" class="no-submenu"><span class="awe-group"></span>Customers</a></li>
+						<li><a href="users.aspx" class="no-submenu"><span class="awe-user"></span>Users</a></li>
+						<li><a href="reservation.aspx" class="no-submenu"><span class="awe-time"></span>Reservations</a></li>
+					</ul>
+				</nav>
+				<!-- /Main navigation -->
+				
+				<!-- Sample side note -->
+				<section class="side-note">
+					<div class="side-note-container">
+						<h2>Administration panel of bus reservation system</h2>
+						<p>You can make changes on routes, buses, agents and display lists of users, customers, reservations. You make date range search on reservations.</p>
+					</div>
+					<div class="side-note-bottom"></div>
+				</section>
+				<!-- /Sample side note -->
+				
+			</div>
+			<!-- Left (navigation) side -->
+
+            <!-- Right (content) side -->
+			<div class="content-block" role="main">
+                    <asp:Panel ID="errorPanel" runat="server" CssClass="alert" Visible="false" style="margin-top: -10px"></asp:Panel>
+                    <form id="form1" runat="server">
+                    <div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                        </asp:ContentPlaceHolder>
+                    </div>
+	                </form>
+            </div>
+        </section>
+		<!-- Main page footer -->
+		<footer class="container">
+			<p>Built with love on <a href="#">ASP.NET</a>.</p>
+			
+			<a href="#top" class="btn btn-primary btn-flat pull-right">Top &uarr;</a>
+		</footer>
+		<!-- /Main page footer -->
+		
+		<!-- Scripts -->
+		<script src="js/navigation.js"></script>
+		<script src="js/bootstrap/bootstrap-affix.js"></script>
+		<script src="js/bootstrap/bootstrap-tooltip.js"></script>
+		<script src="js/bootstrap/bootstrap-dropdown.js"></script>
+		<script src="js/bootstrap/bootstrap-collapse.js"></script>
+		
+	</body>
+</html>

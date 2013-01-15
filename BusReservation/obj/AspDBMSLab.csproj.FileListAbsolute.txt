@@ -1,0 +1,5 @@
+C:\Documents and Settings\ders.cln.004\Desktop\AspDBMSLab\AspDBMSLab\bin\AspDBMSLab.dll
+C:\Documents and Settings\ders.cln.004\Desktop\AspDBMSLab\AspDBMSLab\bin\AspDBMSLab.pdb
+C:\Documents and Settings\ders.cln.004\Desktop\AspDBMSLab\AspDBMSLab\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ders.cln.004\Desktop\AspDBMSLab\AspDBMSLab\obj\Debug\AspDBMSLab.dll
+C:\Documents and Settings\ders.cln.004\Desktop\AspDBMSLab\AspDBMSLab\obj\Debug\AspDBMSLab.pdb

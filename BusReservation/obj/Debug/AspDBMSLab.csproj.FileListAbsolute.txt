@@ -1,0 +1,10 @@
+C:\Users\MBraiN0\Desktop\AspDBMSLab\AspDBMSLab\bin\AspDBMSLab.dll
+C:\Users\MBraiN0\Desktop\AspDBMSLab\AspDBMSLab\bin\AspDBMSLab.pdb
+C:\Users\MBraiN0\Desktop\AspDBMSLab\AspDBMSLab\obj\Debug\AspDBMSLab.csprojResolveAssemblyReference.cache
+C:\Users\MBraiN0\Desktop\AspDBMSLab\AspDBMSLab\obj\Debug\AspDBMSLab.dll
+C:\Users\MBraiN0\Desktop\AspDBMSLab\AspDBMSLab\obj\Debug\AspDBMSLab.pdb
+C:\Users\MBraiN0\Desktop\AspDBMSLab - Kopya (11)\AspDBMSLab\bin\BusReservation.dll
+C:\Users\MBraiN0\Desktop\AspDBMSLab - Kopya (11)\AspDBMSLab\bin\BusReservation.pdb
+C:\Users\MBraiN0\Desktop\AspDBMSLab - Kopya (11)\AspDBMSLab\obj\Debug\AspDBMSLab.csprojResolveAssemblyReference.cache
+C:\Users\MBraiN0\Desktop\AspDBMSLab - Kopya (11)\AspDBMSLab\obj\Debug\BusReservation.dll
+C:\Users\MBraiN0\Desktop\AspDBMSLab - Kopya (11)\AspDBMSLab\obj\Debug\BusReservation.pdb
